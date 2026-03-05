@@ -32,7 +32,7 @@ background-position: center; /* Center the image */
  .card .text-container #head {
 	 font-family: 'Nobile', sans-serif;
 	 font-size: 1.5em;
-	 margin: 60px auto 60px auto;
+
 }
  .card p {
 	 font-size: 1.1em;
@@ -44,8 +44,11 @@ background-position: center; /* Center the image */
 	 margin: 30px auto 0px auto;
 }
 
-.card map {
-	
+.card-map {
+	  max-width: 240px;
+	  max-height: 300px;
+  margin: 30px auto 0px auto;
+
 }
  .card .front {
 	 position: absolute;
