@@ -34,6 +34,15 @@ background-position: center; /* Center the image */
 	 font-size: 1.5em;
 
 }
+
+.card-form {
+	  max-width: 260px;
+	  max-height: 250px;
+	 
+	  top:30px !important;
+  margin: 0px auto 0px auto;
+}	
+
  .card p {
 	 font-size: 1.1em;
 	 line-height: 1.4;
@@ -41,7 +50,7 @@ background-position: center; /* Center the image */
 	 color: #331717;
 	 font-style: italic;
 	 text-align: center;
-	 margin: 30px auto 0px auto;
+	/* margin: 30px auto 0px auto; */
 }
 
 .card-map {
