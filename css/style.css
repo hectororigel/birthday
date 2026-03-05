@@ -43,6 +43,10 @@ background-position: center; /* Center the image */
 	 text-align: center;
 	 margin: 30px auto 0px auto;
 }
+
+.card map {
+	
+}
  .card .front {
 	 position: absolute;
 	 width: 100%;
@@ -106,7 +110,8 @@ background-position: center; /* Center the image */
     width: 100%;
     height: 100%;
     overflow: hidden;
-    z-index: 1000;
+  pointer-events: none; /* Los clics atravesarán el confetti como si fuera un fantasma */
+  z-index: 999;
 }
 .confetti-piece {
     position: absolute;
