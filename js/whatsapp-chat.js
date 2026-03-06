@@ -9,12 +9,12 @@ function sendWhatsAppMessage(event, phoneNumber) {
     const news = document.getElementById('whatsapp-newsletter').checked;
     
     // 3. Construir el mensaje
-    let message = `¡Hola ComputerBot! 👋\n`;
-    message += `Quiero iniciar una conversación. Aquí están mis datos:\n\n`;
+    let message = `¡Hola! 👋\n`;
+    message += `Quiero iniciar confirmar mi asistencia. Aquí están mis datos:\n\n`;
     message += `👤 Nombre: ${name}\n`;
     message += `📧 Email: ${email}\n`;
     message += `📞 Teléfono: ${phone}\n`;
-    message += `📰 Noticias: ${news ? 'Acepto recibir noticias' : 'No deseo recibir noticias'}\n\n`;
+    message += `📰 Confirmación: ${news ? 'Confirmo asistencia' : 'No deseo recibir noticias'}\n\n`;
     message += `Espero su respuesta.`;
     
     // 4. Codificar el mensaje para la URL (esto es crucial para que los espacios y saltos de línea funcionen)
